@@ -13,7 +13,7 @@ I am in the process of developing
 [Bioprocess Library *for* Modelica](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2021/Design%20aspects%20of%20BPL%20v4b.pdf)
 that facilitate the modelling you see examples of at this site. But I do not expose you to much Modelica code and you so far only have access to compiled models in the form of FMU based on the international 
 [FMI-standard](https://fmi-standard.org).
-You can interact with an FMUs from other software and I use Python and the package I use is 
+You can interact with an FMUs from different software and I use Python and the package I use is 
 [PyFMI](https://github.com/modelon-community/PyFMI), 
 but here are alternatives. You can also interact with FMUs in Julia and from commercial software like Matlab. To simplify interaction with FMU I am developing a package 
 [FMU-explore](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).
