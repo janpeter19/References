@@ -14,7 +14,7 @@ that facilitate the modelling you see examples of at this site. But I do not exp
 You can interact with an FMUs from other software and I use Python and the package I use is 
 [PyFMI](https://github.com/modelon-community/PyFMI), 
 but here are alternatives. You can also interact with FMUs in Julia and from commercial software like Matlab. To simplify interaction with FMU I am developing a package 
-[FMU-explore](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).  
+[FMU-explore](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).
 [Jupyter notebooks](https://realpython.com/jupyter-notebook-introduction/) 
 that is used in the example to combine text, small pieces of Python-code, and visualisation of results. In recent years Google offers 
 [Colab](https://colab.research.google.com) 
