@@ -15,16 +15,9 @@ You can interact with an FMUs from other software and I use Python and the packa
 [PyFMI](https://github.com/modelon-community/PyFMI), 
 but here are alternatives. You can also interact with FMUs in Julia and from commercial software like Matlab. To simplify interaction with FMU I am developing a package 
 [FMU-explore](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).
+In my examples I use
 [Jupyter notebooks](https://realpython.com/jupyter-notebook-introduction/) 
-that is used in the example to combine text, small pieces of Python-code, and visualisation of results. In recent years Google offers 
+to combine text, small pieces of Python-code, and visualisation of results. 
+In recent years Google offers 
 [Colab](https://colab.research.google.com) 
 which is a personal virtual  machine (on their servers) with Python pre-installed and where  you can run Jupyter notebooks. My examples let you use Colab and just follow the instructions in the README-texts in the repositories. After the session you can just go on and continue interaction.
-
-
-
-
-
-
-
-
-
