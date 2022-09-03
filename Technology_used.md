@@ -8,8 +8,10 @@ There is a number of commercial implementations of Modelica for example
 [Impact](https://modelon.com/modelon-impact/) and 
 [Dymola](https://www.3ds.com/products-services/catia/products/dymola/), 
 as well as  open source 
-[OpenModelica](https://www.openmodelica.org).
-I am in the process of developing  
+[OpenModelica](https://www.openmodelica.org)
+and discontinued
+[JModelica](https://jmodelica.org//).
+I am in the process of developing
 [Bioprocess Library *for* Modelica](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2021/Design%20aspects%20of%20BPL%20v4b.pdf)
 that facilitate the modelling you see examples of at this site. But I do not expose you to much Modelica code and you so far only have access to compiled models in the form of FMU based on the international 
 [FMI-standard](https://fmi-standard.org).
