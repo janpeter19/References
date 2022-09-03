@@ -1,7 +1,7 @@
 # Technology used
 
 The key underlying technology used is 
-[Modelica]( https://modelica.org)
+[Modelica](https://modelica.org)
 and a brief readable introduction you find
 [here](https://marcobonvini.com/posts/) 
 There is a number of commercial implementations of Modelica for example 
