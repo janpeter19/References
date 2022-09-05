@@ -3,7 +3,7 @@
 The key underlying technology used is 
 [Modelica](https://modelica.org)
 and a brief readable introduction you find
-[here](https://marcobonvini.com/posts/) 
+[here](https://marcobonvini.com/posts/) or rather [here](https://marcobonvini.com/modelica/2020/06/29/all-about-modelica.html)
 There is a number of commercial implementations of Modelica for example 
 [Impact](https://modelon.com/modelon-impact/) and 
 [Dymola](https://www.3ds.com/products-services/catia/products/dymola/), 
