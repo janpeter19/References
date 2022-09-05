@@ -2,7 +2,7 @@
 
 The key underlying technology used is 
 [Modelica](https://modelica.org)
-and a readable concise introduction you find
+and an easyt to read concise introduction you find
 [here](https://marcobonvini.com/modelica/2020/06/29/all-about-modelica.html)
 and a comprehenisve online book
 [here](https://mbe.modelica.university).
