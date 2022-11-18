@@ -21,3 +21,6 @@ However, the modelling framwork allow more complex models that include dynamics 
 
 The  application modelling is also used for ion-exchange-chromatography. Here the convection- diffusion reactions 
 are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
+
+The control sytems used are mainly based on blocks from the **Modelica Standard Library.** Measurment noise is also 
+added using blocks from this library. 
