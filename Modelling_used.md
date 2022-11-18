@@ -25,6 +25,6 @@ The  application modelling is also used for ion-exchange-chromatography. Here th
 are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
 
 The control systems used are mainly based on blocks from the **Modelica Standard Library.** Measurement noise is also 
-added using blocks from this library. 
+added using blocks from this library. The control system can be in continuous, or discrete time, and even be event-based.
 
 The Modelica Standard Library contain comprehensive packages Fluid and Media and some ideas from these packages have served as inspiration for Bioprocess Library *for* Modelica, but compatiblity has so far not been in focus.  
