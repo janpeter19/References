@@ -2,7 +2,9 @@
 
 The modelling concepts used at different levels are briefly described below. A key structure is
 to clearly **distinguish the specific application code from the general library code**. 
-The library code consists of standard equipment like: pump, tank, reactor, sensor, filter, 
+The 
+[Bioprocess Library *for* Modelica](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2021/Design%20aspects%20of%20BPL%20v4b.pdf)
+code consists of standard equipment like: pump, tank, reactor, sensor, filter, 
 as well as blocks for control system. The equipment models are written in a general way and is 
 automatically adapted to the media used using Modelica language concepts. The configuration 
 of the process setup is done on a high-level connecting pipes for media and cables for signals. 
