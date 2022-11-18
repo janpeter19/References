@@ -17,7 +17,7 @@ as well as
 are all based on the simplified **respiratory bottleneck view of metabolism and growth.**  These models 
 of intermediate complexity, as well as the simplified text book model, describes the culture  essentially 
 in terms of a static function relating reactor concentration to metabolic fluxes of uptake and formation rate.
-The modelling framwork allow more complex models that include dynamics on the cellular level.
+However, the modelling framwork allow more complex models that include dynamics on the cellular level.
 
 The  application modelling is also used for ion-exchange-chromatography. Here the convection- diffusion reactions 
 are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
