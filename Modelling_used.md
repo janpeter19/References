@@ -27,5 +27,6 @@ are simplified to a series of tank reactors with reactions, i.e. to a set of ord
 
 The control systems used are mainly based on blocks from the **Modelica Standard Library.** Measurement noise is also 
 added using blocks from this library. The control systems can be continuous time including events, or regular sampled discrete time.
+The application code can include when needed tailor-made control system blocks, of course. 
 
 The Modelica Standard Library contain comprehensive packages Fluid and Media and some ideas from these packages have served as inspiration for Bioprocess Library *for* Modelica, but compatibility with these packages has so far not been in focus.
