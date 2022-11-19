@@ -20,7 +20,7 @@ of intermediate complexity, as well as the simplified textbook model, describe t
 in terms of a static function relating reactor concentration to metabolic fluxes of uptake and formation rate.
 However, the modelling framework allow more complex models that include dynamics on the cellular level.
 The library has also been used in combination with 
-[constraint-based-modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf).
+[constraint-based modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf).
 
 The  application modelling is also used for ion-exchange-chromatography. Here the convection- diffusion reactions 
 are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
