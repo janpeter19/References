@@ -22,11 +22,11 @@ However, the modelling framework allow more complex models that include dynamics
 The library can also be used in combination with 
 [constraint-based modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf).
 
-The  application modelling is also used for ion-exchange-chromatography. Here the convection- diffusion reactions 
+The  application modelling is also used for ion-exchange-chromatography. Here the binding and convection-diffusion reactions 
 are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
 
 The control systems used are mainly based on blocks from the Modelica Standard Library. Measurement noise is also 
 added using blocks from this library. The control systems can be continuous time including events, or regular sampled discrete time.
-The application code can include when needed tailor-made control system blocks, of course. 
+The application code can include tailor-made control system blocks, when needed.
 
 The Modelica Standard Library contain comprehensive packages Fluid and Media and some ideas from these packages have served as inspiration for Bioprocess Library *for* Modelica, but compatibility with these packages has so far not been in focus.
