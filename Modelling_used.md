@@ -6,8 +6,7 @@ is to clearly distinguish the specific application code from the general library
 The general code consists of models for standard equipment components like pump, tank, reactor, sensor, filter, 
 as well as blocks for control systems. The equipment models are written in a general way and is 
 automatically adapted to the application media used, using Modelica language concepts. The configuration 
-of the process setup is done on a high-level connecting equipment components using pipes for media and cables for signals. 
-The specific application code is written in Modelica language following a certain equation-based form. 
+of the process setup for batch, fedbatch, or continuos operation etc, is done on a high-level connecting equipment components using pipes for media and cables for signals. The specific application code is written in Modelica language following a certain equation-based form. 
 
 The application modelling consists of different parts: media, culture reactions, broth reactions, pH-buffer-reactions,
 gas-liquid-transfer reactions. The example of cultures models used so far for 
@@ -16,10 +15,10 @@ gas-liquid-transfer reactions. The example of cultures models used so far for
 as well as 
 [CHO](https://www.sciencedirect.com/science/article/abs/pii/S1369703X12003105) 
 are all based on the simplified respiratory bottleneck view of metabolism and growth.  These models 
-of intermediate complexity, as well as the simplified textbook model, describe the culture  essentially 
-in terms of a static function relating reactor concentration to metabolic fluxes of uptake and formation rate.
-However, the modelling framework allow more complex models that include dynamics on the cellular level.
-The library can also be used in combination with 
+of intermediate complexity, as well as the simplified textbook model of just substrate and cell concentrations, 
+describe the culture  essentially in terms of a static function relating reactor concentrations to metabolic fluxes 
+of uptake and formation rates. However, the modelling framework allow more complex models that include dynamics 
+on the cellular level. The library can also be used in combination with 
 [constraint-based modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf).
 
 The  application modelling is also used for ion-exchange-chromatography. Here the binding and convection-diffusion reactions 
