@@ -6,7 +6,10 @@ is to clearly distinguish the specific application code from the general library
 The general code consists of models for standard equipment components like pump, tank, reactor, sensor, filter, 
 as well as blocks for control systems. The equipment models are written in a general way and is 
 automatically adapted to the application media used, using Modelica language concepts. The configuration 
-of the process setup for batch, fedbatch, or continuos operation, and in combination with filter or chromatography step, is done on a high-level connecting equipment components using pipes for media and cables for signals. The specific application code is written in Modelica language following a certain equation-based form. 
+of the process setup for batch, fedbatch, or continuos operation, and in combination with filter or chromatography step, 
+is done on a high-level connecting equipment components using pipes for media and cables for signals. 
+You can even model a series of processing units to simulate up-stream culture expansion as well as down-stream product harvesting.
+The specific application code is written in Modelica language following a certain equation-based form. 
 
 The application modelling consists of different parts: media, culture reactions, broth reactions, pH-buffer-reactions,
 gas-liquid-transfer reactions. The example of cultures models used so far for 
