@@ -21,7 +21,8 @@ are all based on the simplified respiratory bottleneck view of metabolism and gr
 of intermediate complexity, as well as the simplified textbook model of just substrate and cell concentrations, 
 describe the culture  essentially in terms of a static function relating reactor concentrations to metabolic fluxes 
 of uptake and formation rates. However, the library modelling framework allows more complex models that include dynamics 
-on the cellular level. The language [Modelica compared to SBML](https://link.springer.com/chapter/10.1007/10_2009_64)
+on the cellular level as well sub-models of metabolism. 
+The language [Modelica compared to SBML](https://link.springer.com/chapter/10.1007/10_2009_64)
 for modelling of biological processes has some advantages. The Bioprocess Library can be used in combination with 
 [constraint-based modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf) using Python.
 
