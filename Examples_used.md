@@ -1,6 +1,6 @@
 # Examples used
 
-Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an exapmpler per repository.  Reference to the literature you find in the notebooks. 
+Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an example per repository.  Reference to the literature you find in the notebooks. 
 
 ## TEST2 - text book model
 
@@ -37,7 +37,7 @@ The yeast respiratory bottleneck model can be described in terms of constraint-b
 
 ## ECOLI
 
-The *E coli* model below is similar to the the yeast model but also include maintenance metabolism. Although this bacteria is in many ways simpler than yeast the metabolism and growth can be more complex...
+The *E coli* model below is similar to the the yeast model but also include maintenance metabolism. Although this bacteria is in many ways simpler than yeast the metabolism and growth can be more complex in reality. The model was originally developed for fedbatch cultivation.  
 
 * [BPL_ECOLI_AIR_Fedbatch](https://github.com/janpeter19/BPL_ECOLI_AIR_Fedbatch) - Fedbatch cultivation of *E coli* in an aerated reactor
 
