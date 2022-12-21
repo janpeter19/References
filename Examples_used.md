@@ -1,6 +1,6 @@
 # Examples used
 
-Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one example per repository for simplicity. 
+Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an exapmpler per repository.  Reference to the literature you find in the notebooks. 
 
 ## TEST2 - text book model
 
@@ -60,7 +60,7 @@ Here a simplified model is used to illustrate the main principles of operation.
 
 ## Remark on control and operation
 
-The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include filter and an example of downstream chromatograhy. It is also possible to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
+The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include a filter and an example of downstream chromatograhy. It is also possible to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
 
 
 
