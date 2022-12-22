@@ -1,6 +1,7 @@
 # Examples used
 
 Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an example per repository.  Reference to the literature you find in the notebooks. 
+I hope the variety of examples give an idea of of the versatility of using compiled Modelica code as FMU and Jupyter notebooks with small Python scripts to improve understanding of bioprocesses.
 
 ## TEST2 - text book model
 
