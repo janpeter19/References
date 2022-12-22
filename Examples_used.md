@@ -17,13 +17,13 @@ Model calibration is important in practice and a basic example using Python scip
 
 * [BPL_TEST2_Batch_calibration](https://github.com/janpeter19/BPL_TEST2_Batch_calibration) - Batch cultivation calibration
 
-Design space calculation is an important kind of application and a basic example are given below. Here noise is added to the measurement signal in the later part of the notebook. 
+Design space calculation is an important kind of application and a basic example is given below. Here noise is added to the measurement signal in the later part of the notebook. 
 
 * [BPL_TEST2_Batch_design_space](https://github.com/janpeter19/BPL_TEST2_Batch_design_space) - Batch cultivation and design space characterization
 
 ## YEAST
 
-The next step in culture model complexity is to include byproduct formation. This is important for *S cerevisiase* and *E coli* and also for CHO-cultures. We start with a yeast model and it can be run both as as batch and fedbatch here. The model also include aeration, e.g. both liquid and gasphase included. The model was originally developed for continuous cultivation.
+The next step in culture model complexity is to include byproduct formation. This is important for *S cerevisiase* and *E coli* and also for CHO-cultures. We start with a yeast model and it can be run both as as batch and fedbatch here. The model also includes aeration, e.g. both liquid and gasphase included. The model was originally developed for continuous cultivation.
 
 * [BPL_YEAST_AIR_Fedbatch](https://github.com/janpeter19/BPL_YEAST_AIR_Fedbatch) - Fedbatch cultivation of yeast in an aerated reactor
 
@@ -43,7 +43,7 @@ The *E coli* model below is similar to the the yeast model but also include main
 
 ## CHO
 
-The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included. The model was originally developed for fedbatch cultivation with continuous feed. 
+The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain ihibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
 
 * [BPL_CHO_Fedbatch](https://github.com/janpeter19/BPL_CHO_Fedbatch) - Fedbatch cultivation of CHO-culture
 * [BPL_CHO_Fedbatch_optimization](https://github.com/janpeter19/BPL_CHO_Fedbatch_optimization) - Optimization of fedbatch cultivation of CHO-culture
@@ -62,15 +62,3 @@ Here a simplified model is used to illustrate the main principles of operation.
 ## Remarks on control and operation
 
 The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include a filter and an example of downstream chromatograhy. It is also possible to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
-
-
-
-
-
-
-
-
-
-
-
-
