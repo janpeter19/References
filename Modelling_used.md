@@ -33,4 +33,4 @@ The control systems used are mainly based on blocks from the Modelica Standard L
 added using blocks from this library. The control systems can be continuous time, including events, and regular sampled discrete time.
 The application code can include tailor-made control system blocks, when needed.
 
-The Modelica Standard Library contain comprehensive packages Fluid and Media and some ideas from these packages have served as inspiration for Bioprocess Library *for* Modelica, but compatibility with these packages has so far not been in focus.
+The Modelica Standard Library contains comprehensive packages Fluid and Media and some ideas from these packages have served as inspiration for Bioprocess Library for Modelica. Bioprocess Library is so far simplified to non-compressible media and that substances are dissolved in an ideal way.  The cell concentration is viewed as a solution while it is in practice a suspension, but this is a common simplification in the field. Compatibility of Bioprocess Library *for* Modelica with MSL Fluid and Media packages has so far not been in focus.
