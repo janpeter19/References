@@ -3,6 +3,10 @@
 Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an example per repository.  Reference to the literature you find in the notebooks. 
 I hope the variety of examples give an idea of of the versatility of using compiled Modelica code as FMU and Jupyter notebooks with small Python scripts to improve understanding of bioprocesses.
 
+In some notebooks multiple simulations are done for sensitivity analysis, model calibration, or process optimization.  Here are used extra Python packages SALib and SciPy.  The key in these type of notebooks is that an application dependent evaluation function is defined in Python and a general flexible and open format is used and facilitated with the FMU-explore command line package. The optimization technique used is gradient free. 
+
+There are Python techniques to parallelise computations using multiple CPU-kernels but not shown here. In the near future the updated FMI-standard 3.0 for generation of FMU provides gradient information and can be  used to make optimization more effective for a class of problems
+
 ## TEST2 - text book model
 
 We start with the text book model of a culture with only states for: substrate, biomass, and reactor volume. 
