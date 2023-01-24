@@ -16,7 +16,7 @@ continuous and perfusion cultivation.
 * [BPL_TEST2_Batch](https://github.com/janpeter19/BPL_TEST2_Batch) - Batch cultivation - updated (after Google Colab upgrade mid January)
 * [BPL_TEST2_Fedbatch](https://github.com/janpeter19/BPL_TEST2_Fedbatch) - Fedbatch cultivation - updated
 * [BPL_TEST2_Chemostat](https://github.com/janpeter19/BPL_TEST2_Chemostat) - Continuous cultivation - updated
-* [BPL_TEST2_Perfusion](https://github.com/janpeter19/BPL_TEST2_Perfusion) - Perfusion cultivation
+* [BPL_TEST2_Perfusion](https://github.com/janpeter19/BPL_TEST2_Perfusion) - Perfusion cultivation - updated
 
 Model calibration is important in practice and a basic example using Python scipy optimization routine is given below. A similar structure of the notebook is found in other "calibration-notebooks" on this site.
 
