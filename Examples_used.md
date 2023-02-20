@@ -30,7 +30,7 @@ Design space calculation is an important kind of application and a basic example
 
 The next step in culture model complexity is to include byproduct formation. This is important for *S cerevisiase* and *E coli* and also for CHO-cultures. We start with a yeast model and it can be run both as as batch and fedbatch here. The model also includes aeration, e.g. both liquid and gasphase included. The model was originally developed for continuous cultivation.
 
-* [BPL_YEAST_AIR_Fedbatch](https://github.com/janpeter19/BPL_YEAST_AIR_Fedbatch) - Fedbatch cultivation of yeast in an aerated reactor
+* [BPL_YEAST_AIR_Fedbatch](https://github.com/janpeter19/BPL_YEAST_AIR_Fedbatch) - Fedbatch cultivation of yeast in an aerated reactor - updated
 
 The yeast model can be structured in two parts and here the details around the respiratory bottleneck is separated and different modifications of the bottlenecks are investigated. This is studied in continuous cultivation and the phenomenon of multiple steady states is elucidated with these model modifications. 
 
