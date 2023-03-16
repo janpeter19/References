@@ -17,8 +17,9 @@ gas-liquid-transfer reactions. The example of cultures models used so far for
 [*S cerevisiae*](https://onlinelibrary.wiley.com/doi/10.1002/bit.260280620), 
 as well as 
 [CHO](https://www.sciencedirect.com/science/article/abs/pii/S1369703X12003105) 
-are all based on the simplified respiratory bottleneck view of metabolism and growth.  These models 
-of intermediate complexity, as well as the simplified textbook model of just substrate and cell concentrations, 
+are all based on the simplified respiratory bottleneck view of metabolism and growth. The general phenomen of overflow metabolism is further discused 
+[here](https://microbialcellfactories.biomedcentral.com/articles/10.1186/1475-2859-11-122). 
+These models of intermediate complexity, as well as the simplified textbook model of just substrate and cell concentrations, 
 describe the culture  essentially in terms of a static function relating reactor concentrations to metabolic fluxes 
 of uptake and formation rates. However, the library modelling framework allows more complex models that include dynamics 
 on the cellular level as well sub-models of metabolism. 
