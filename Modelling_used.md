@@ -27,7 +27,8 @@ for modelling of biological processes has some advantages. The Bioprocess Librar
 [constraint-based modelling](http://users.abo.fi/khaggblo/npcw21/submissions/P18_Axelsson.pdf) using Python.
 
 The  application modelling is also used for ion-exchange-chromatography. Here the binding and convection-diffusion reactions 
-are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  
+are simplified to a series of tank reactors with reactions, i.e. to a set of ordinary differential equation.  A much more advanced example of using Modelica to study operation of chromatography you find
+[here](https://www.mdpi.com/2227-9717/3/3/568) and indicate the potential.
 
 The control systems used are mainly based on blocks from the Modelica Standard Library. Measurement noise is also 
 added using blocks from this library. The control systems can be continuous time, including events, and regular sampled discrete time.
