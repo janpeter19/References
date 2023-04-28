@@ -55,7 +55,7 @@ The CHO-model below is also inspired by the bottleneck model of yeast above. In 
 
 The same CHO-model can also be used to describe continuous perfusion cultivation.
 
-* [BPL_CHO_Perfusion](https://github.com/janpeter19/BPL_CHO_Perfusion) - Perfusion cultivation of CHO-cells
+* [BPL_CHO_Perfusion](https://github.com/janpeter19/BPL_CHO_Perfusion) - Perfusion cultivation of CHO-cells - not yet public
 
 ## IEC
 
