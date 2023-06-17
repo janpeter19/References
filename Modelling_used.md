@@ -3,20 +3,14 @@
 The modelling concepts used at different levels are briefly described below. A key structure of
 [Bioprocess Library *for* Modelica](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2021/Design%20aspects%20of%20BPL%20v4b.pdf)
 is to clearly distinguish the specific application code from the general library code. 
-The general code consists of models for standard equipment components like pump, tank, reactor, sensor, filter, 
-as well as blocks for control systems. The equipment models are written in a general way and is 
-automatically adapted to the application media used, using Modelica language concepts. The configuration 
-of the process setup for batch, fedbatch, or continuos operation, and in combination with filter or chromatography step, 
-is done on a high-level connecting equipment components using pipes for media and cables for signals. 
-You can even model a series of processing units to simulate up-stream culture expansion as well as down-stream product harvesting.
-The specific application code is written in Modelica language following a certain equation-based form. 
+The general code consists of models for standard equipment components like pump, tank, reactor, sensor, filter, as well as blocks for control systems. The equipment models are written in a general way and is automatically adapted to the application media used, using Modelica language concepts. The configuration of the process setup for batch, fedbatch, or continuos operation, and in combination with filter or chromatography step, is done on a high-level connecting equipment components using pipes for media and cables for signals. You can even model a series of processing units to simulate up-stream culture expansion as well as down-stream product harvesting. The specific application code is written in Modelica language following a certain equation-based form. 
 
 The application modelling consists of different parts: media, culture reactions, broth reactions, pH-buffer-reactions,
 gas-liquid-transfer reactions. The example of cultures models used so far for 
-[*E coli*](https://aiche.onlinelibrary.wiley.com/doi/abs/10.1021/bp9801087), 
 [*S cerevisiae*](https://onlinelibrary.wiley.com/doi/10.1002/bit.260280620), 
+[*E coli*](https://aiche.onlinelibrary.wiley.com/doi/abs/10.1021/bp9801087), 
 as well as 
-[CHO](https://www.sciencedirect.com/science/article/abs/pii/S1369703X12003105) 
+[CHO](https://www.sciencedirect.com/science/article/abs/pii/S1369703X12003105), 
 are all based on the simplified respiratory bottleneck view of metabolism and growth. The general phenomenon of overflow metabolism is further discused 
 [here](https://microbialcellfactories.biomedcentral.com/articles/10.1186/1475-2859-11-122). 
 These models of intermediate complexity, as well as the simplified textbook model of just substrate and cell concentrations, 
