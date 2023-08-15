@@ -1,4 +1,8 @@
 # Notes history
+**Note 2023-06-01** Now the setup scripts using PyFMI works again. They have been updated for Python 3.10 that is now default version for Colab VM since a few weeks. The scripts for FMPy are more robust. Further here are a few new repositories with preliminary notebooks:
+    - BPL_YEAST_COB_Batch - illustrate constraint-based modelling and simulation with FMU and Optlang in combination.
+    - BPL_IEC_operation - show downstream ion exchange chromatography in operation in several typical situations 
+    - BPL_IEC_validation - show downstrean ion exchange chromatograph show similarity with original work
 
 **Note 2023-03-30** Now the setup scripts including FMU-explore ver 0.9.7 has after a longer trial period matured and provide interface for both the packages PyFMI and FMPy and almost identical notebooks can be used. The  different setup scripts for both packages  have very similar structure.  The difficulties to load PyFMI is now eliminated and was due to mismatch between Colab and Miniconda.   Colab now use Python 3.9 as default. Here are several new repositories in the pipe-line. Stay tuned!
 
