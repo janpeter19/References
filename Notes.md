@@ -1,9 +1,4 @@
 # Notes history
-**Note 2023-06-01** Now the setup scripts using PyFMI works again. They have been updated for Python 3.10 that is now default version for Colab VM since a few weeks. The scripts for FMPy are more robust. Further here are a few new repositories with preliminary notebooks:
-    
-* BPL_YEAST_COB_Batch - illustrate constraint-based modelling and simulation with FMU and Optlang in combination.
-* BPL_IEC_operation - show downstream ion exchange chromatography in operation in several typical situations 
-* BPL_IEC_validation - show downstrean ion exchange chromatograph show similarity with original work
 
 **Note 2023-08-15** The Google Colab VM has recently been updated to Ubuntu 22.04 and runs Python 3.10 and enables us to use the latest version of the key package PyFMI. Most FMUs are still made for Ubuntu 20.04 but still works what I can see after testing a few notebooks.
 
