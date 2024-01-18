@@ -1,5 +1,14 @@
 # Notes history
 
+**Note 2023-09-26**
+I would like to draw your attention to two conference contributions recently and examples represented in the repositories. Here will be some further updates in the coming days.
+
+  **CONF\_2023\_08\_NPCW24** - The example on ion chromatography was presented that we have worked on for some time.
+
+  **CONF\_2023\_10\_MODELICA15**  - The design ideas behind BPL is presented with focus on the library structure. A few basic examples are used for illustration and found here.
+
+  Now PyFMI works as usual again after adjustments in the package environment. And you also alternatively can use FMPy as before.
+
 **Note 2023-09-13**
 Now several notebooks also include a process diagram. They are generated from GUI configuration using OpenModelica and BPL equipped with icons. This new version of BPL with GUI is under further development. I am also aware of that notebooks with PyFMI do halt for some errors in the package environment. In the meantime, use notebooks with FMPy instead and available in most repositories. 
 
