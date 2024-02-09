@@ -4,6 +4,8 @@ The key underlying technology used is
 [Modelica](https://modelica.org)
 and an easy to read introduction you find
 [here](https://marcobonvini.com/modelica/2020/06/29/all-about-modelica.html)
+a concise paper
+[here](https://elib.dlr.de/118405/1/sne.26.2.10332.on.OA.pdf) 
 and a comprehenisve online book
 [here](https://mbe.modelica.university).
 There is a number of commercial implementations of Modelica for example 
