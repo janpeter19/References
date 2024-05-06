@@ -38,7 +38,7 @@ The yeast model can be structured in two parts and here the details around the r
 
 The yeast respiratory bottleneck model can be described in terms of constraint-based modelling. This is illustrated in the next example. The notebook include connection to a public genome based model. 
 
-* [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling - not yet public
+* [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling 
 
 ## ECOLI
 
@@ -62,8 +62,8 @@ The same CHO-model can also be used to describe continuous perfusion cultivation
 Ion exchange chromatograpy (IEC) is an important process unit to separate the product of interest from similar molecules.
 Here a simplified model is used to illustrate the main principles of operation.
 
-* [BPL_IEC_validation](https://github.com/janpeter19/BPL_IEC_validation) - Ion Exchange Chromatograpy introduction - prel ver
-* [BPL_IEC_operation](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy operation - prel ver
+* [BPL_IEC_validation](https://github.com/janpeter19/BPL_IEC_validation) - Ion Exchange Chromatograpy introduction
+* [BPL_IEC_operation](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy operation 
 * [BPL_IEC_uv_pooling](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy using UV-pooling - not yet public 
 
 ## Remarks on control and operation
