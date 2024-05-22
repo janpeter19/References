@@ -1,5 +1,10 @@
 # Notes history
 
+
+**Note 2024-05-06**
+Now the simulations are run with latest Python package PyFMI 2.12-0, or alternatively FMPy 0.3.20.
+It seems to work well but let me know if you encounter any problems.
+
 **Note 2024-01-18**
 The conference paper "Design ideas behind Bioprocess Library for Modelica" by myself, and presented at the 15th International Modelica Conference in the fall, you can now find in the proceeding [here](https://ecp.ep.liu.se/index.php/modelica/issue/view/83) on page 453-462.
 
