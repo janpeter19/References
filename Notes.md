@@ -1,5 +1,7 @@
 # Notes history
 
+**Note 2024-05-22**
+Here is a problem with PyFMI 2.13-0 installation using conda-forge and seems not possible to go back to the earlier version either. The problem is reported to the people in charge. In the mean time, use FMPy that works fine. Now Linux FMUs are updated to OpenModelica ver 1.23.0-dev. The FMUs are compiled with recently updated Bioprocess Library 2.2.0.
 
 **Note 2024-05-06**
 Now the simulations are run with latest Python package PyFMI 2.12-0, or alternatively FMPy 0.3.20.
