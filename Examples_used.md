@@ -38,7 +38,12 @@ The yeast model can be structured in two parts and here the details around the r
 
 The yeast respiratory bottleneck model can be described in terms of constraint-based modelling. This is illustrated in the next example. The notebook include connection to a public genome based model. 
 
-* [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling 
+* [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling
+
+Yeast is industrially culitivated in large reactors where gradients in substrate concentration play a role for lowering yield. Reactor size typically 100 $m^3$. The inlete substrate flow gives an area of high subdtrate level and cna be percieved as a "Hot-spot". In this part of the reactor ethanol is formed while in other parts of the reactor the ethanol can be consumed during certain coditions, Here is a two-reactor setup that illustrates the phenomena.
+
+* [BPL_YEAST_Fedbatch_hotspot](https://github.com/janpeter19/BPL_YEAST_Fedbatch_hotspot) - Yeast and fedbatch  two-reactor setup - not yet public
+
 
 ## ECOLI
 
