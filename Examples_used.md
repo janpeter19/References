@@ -53,7 +53,7 @@ The *E coli* model below is similar to the the yeast model but also include main
 
 ## CHO
 
-The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain ihibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
+The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain inhibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
 
 * [BPL_CHO_Fedbatch](https://github.com/janpeter19/BPL_CHO_Fedbatch) - Fedbatch cultivation of CHO-culture 
 * [BPL_CHO_Fedbatch_optimization](https://github.com/janpeter19/BPL_CHO_Fedbatch_optimization) - Optimization of fedbatch cultivation of CHO-culture - not yet public
