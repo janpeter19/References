@@ -40,7 +40,7 @@ The yeast respiratory bottleneck model can be described in terms of constraint-b
 
 * [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling
 
-Yeast is industrially culitivated in large reactors where gradients in substrate concentration play a role for lowering yield. Reactor size typically 100 $m^3$. The inlete substrate flow gives an area of high subdtrate level and cna be percieved as a "Hot-spot". In this part of the reactor ethanol is formed while in other parts of the reactor the ethanol can be consumed during certain coditions, Here is a two-reactor setup that illustrates the phenomena.
+Yeast is industrially culitivated in large reactors where gradients in substrate concentration play a role for lowering yield. Reactor size typically 100 $m^3$. The inlete substrate flow gives an area of high subdtrate level and cna be percieved as a "Hot-spot". In this part of the reactor ethanol is formed while in other parts of the reactor the ethanol can be consumed during certain coditions. Here is a two-reactor setup that illustrates the phenomena.
 
 * [BPL_YEAST_Fedbatch_hotspot](https://github.com/janpeter19/BPL_YEAST_Fedbatch_hotspot) - Yeast and fedbatch  two-reactor setup - not yet public
 
@@ -53,7 +53,7 @@ The *E coli* model below is similar to the the yeast model but also include main
 
 ## CHO
 
-The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain ihibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
+The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain inhibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
 
 * [BPL_CHO_Fedbatch](https://github.com/janpeter19/BPL_CHO_Fedbatch) - Fedbatch cultivation of CHO-culture 
 * [BPL_CHO_Fedbatch_optimization](https://github.com/janpeter19/BPL_CHO_Fedbatch_optimization) - Optimization of fedbatch cultivation of CHO-culture - not yet public
