@@ -1,5 +1,10 @@
 # Notes history
 
+**Note 2024-07-04**
+The BPL is updated to 2.2.1 and the GUI for gasphase is included, see the process diagram for BPL\_YEAST\_AIR Fedbatch DO-control. In general, the gasphase is coloured in grey, while liquid media is as before for nutriens yellow, for cells orange, and for recombinant product violet. The simulation results are identical and the underlying model code only differs in a few variable names. Text material like UsersGuide with References in MSL-style are now also included. Here is an old subtle problem with the FMUs that occurs when simulations are re-started at some point. It has nothing to do with update of BPL. The OpenModelica community works on it, see issue #12561 on their GitHub-site. 
+
+Note that Google Colab automatically introduce a code line at the end "Start coding or generate with AI" as some kind of advertisment. It is difficult to take away.
+
 **Note 2024-05-24**
 Now PyFMI 2.13.0 is available again, as well as FMPy 0.3.20, for running the simulations in the notebooks.
 Now Linux FMUs are updated to OpenModelica ver 1.23.0-dev. The FMUs are compiled with recently updated Bioprocess Library 2.2.0. The common command-line interactions for both PyFMI and FMPy is done with FMU-explore updated to 1.0.0. 
@@ -15,6 +20,9 @@ It seems to work well but let me know if you encounter any problems.
 The conference paper "Design ideas behind Bioprocess Library for Modelica" by myself, and presented at the 15th International Modelica Conference in the fall, you can now find in the proceeding [here](https://ecp.ep.liu.se/index.php/modelica/issue/view/83) on page 453-462.
 
   **CONF\_2023\_10\_MODELICA15**  - The repository contains  a few basic examples used for illustrations in the paper.
+  
+**Note 2023-10-04**
+The BPL ver 2.1.1 with GUI-configured applications with only liquidphase passed validation successfully with Modelon Impact Cloud ver 2.9.25 for Windows. 
 
 **Note 2023-09-26**
 I would like to draw your attention to two conference contributions recently and examples represented in the repositories. Here will be some further updates in the coming days.
