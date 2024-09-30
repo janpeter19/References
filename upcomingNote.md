@@ -1,17 +1,16 @@
 
-**Note 2024-07-20**
+**Note 2024-10-xx**
 
-The GUI for BPL has now reached an important milestone and all applications can be GUI-configured and the notebooks include corresponding process diagram. The models and results are the same, of course. Recent GUI work:
+The GUI for BPL ver 2.2.1 is an update with minor adjustments after now longer time usage.
 
-* An example of fedbatch cultivation of yeast with control of dissolved oxygen - see repository BPL\_YEAST\_AIR\_Fedbatch
+Here is a new repository including control design of fedbatch cultivation, made on request.
+The example is about feed rate control of yeast cultivation during fedbatch with focus on 
+how to address variations in the exponential growth rate. The analysis and the design is applicable
+to control of other variablies during fedbatch, like dissolved oxygen, pH etc. 
 
-* An example pf ion exchange chromotagraphy - see repositories BPL\_IEC\_validation (but BPL\_IEC\_operation needs a fix around scale_volume, scaling of the time axis).
+* An example of fedbatch cultivation of yeast with control of the ethanol concentration - see repository BPL\_YEAST\_Fedbatch\_control
 
-OpenModelica 1.23.1 was used. In the fall a subset of GUI for the liquid phase only was validated with Impact 2.1 
+OpenModelica 1.24.0 is used. In the fall 2023 a subset of GUI for the liquid phase only was validated with Impact 2.1 
 
 The issue #12561 with the OpenModelica FMUs still remains.
-
-**Note 2023-10-04**
-
-The BPL ver 2.1.1 with GUI-configured applications with only liquidphase passed validation successfully with Modelon Impact Cloud ver 2.9.25 for Windows. 
 
