@@ -1,5 +1,16 @@
 # Notes history
 
+**Note 2024-07-20**
+The GUI for BPL has now reached an important milestone and all applications can be GUI-configured and the notebooks include corresponding process diagram. The models and results are the same, of course. Recent GUI work:
+
+* An example of fedbatch cultivation of yeast with control of dissolved oxygen (now also including icons for the gasphase) - see repository BPL\_YEAST\_AIR\_Fedbatch
+
+* An example of ion exchange chromotagraphy - see repositories BPL\_IEC\_validation (but BPL\_IEC\_operation needs a fix around scale_volume, i.e. scaling of the time axis).
+
+OpenModelica 1.23.1 was used. In the fall a subset of GUI for the liquid phase only was validated with Impact 2.1 
+
+The issue #12561 with the OpenModelica FMUs still remains / fixed nighly build 1.25.0-dev 2024-10-02.
+
 **Note 2024-07-04**
 The BPL is updated to 2.2.1 and the GUI for gasphase is included, see the process diagram for BPL\_YEAST\_AIR Fedbatch DO-control. In general, the gasphase is coloured in grey, while liquid media is as before for nutriens yellow, for cells orange, and for recombinant product violet. The simulation results are identical and the underlying model code only differs in a few variable names. Text material like UsersGuide with References in MSL-style are now also included. Here is an old subtle problem with the FMUs that occurs when simulations are re-started at some point. It has nothing to do with update of BPL. The OpenModelica community works on it, see issue #12561 on their GitHub-site. 
 
