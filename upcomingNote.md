@@ -7,10 +7,3 @@ how to address variations in the culture exponential growth rate. The analysis a
 to control of other variables during fedbatch, like dissolved oxygen, pH etc. 
 
 * An example of fedbatch cultivation of yeast with control of the ethanol concentration - see repository BPL\_YEAST\_Fedbatch\_control
-
-The BPL ver 2.3.0 is now used. Now the GUI work is fully intergrated into the standard library. Otherwise no new functionality.
-
- 
-
-
-

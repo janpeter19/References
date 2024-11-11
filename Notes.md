@@ -1,5 +1,12 @@
 # Notes history
 
+**Note 2024-10-04**
+The GUI for BPL ver 2.2.1 is an update with minor adjustments after now longer of time usage.
+
+Further, the possibility to simulate, change a parameter, and then continue simulation using the command simu('cont'), now finally works also for OpenModelica Linux FMUs, see their Github-list of issues #12561.  The command is part of the simplified interface FMU-explore for the packages PyFMI and FMPy. 
+
+OpenModelica nightly build 1.25.0-dev after 2024-10-02 is now used throughout for running notebooks in Google Colab.
+
 **Note 2024-07-20**
 The GUI for BPL has now reached an important milestone and all applications can be GUI-configured and the notebooks include corresponding process diagram. The models and results are the same, of course. Recent GUI work:
 
