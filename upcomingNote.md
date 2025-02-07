@@ -1,5 +1,12 @@
 
-**Note 2024-11-xx** 
+
+
+
+**Note 2025-02-07**
+Now the issue with running notebooks with PyFMI is resolved and running 2.16.3. 
+
+
+**Note 2025-02-yy** 
 
 Here is a new repository including control design of fedbatch cultivation, made on request.
 The example is about feed rate control of yeast cultivation during fedbatch with focus on 
