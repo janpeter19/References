@@ -1,6 +1,12 @@
 
 
 
+**Note 2024-02-17**
+Now all Colab scripts are adjusted for Python 3.11 and running either PyFMI 2.16.3 or FMPy 0.3.22. 
+For FMPy scripts the conda environment is dropped and installation done with pip.
+Further update to Python 3.12 is expected in April according to Google Colab announcement.
+The off-line Windows scripts are already running with that version.
+
 
 **Note 2024-02-10**
 Now all scripts are adjusted for Python 3.11 and running either PyFMI 2.16.3 or FMPy 0.3.19. 
