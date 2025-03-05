@@ -1,17 +1,18 @@
 
 
 
-**Note 2024-02-17**
-Now all Colab scripts are adjusted for Python 3.11 and running either PyFMI 2.16.3 or FMPy 0.3.22. 
-For FMPy scripts the conda environment is dropped and installation done with pip. 
-The two application BPL\_IEC\_operation and BPL\_CHO\_Perfusion\_cspr runs with FMPy 0.3.20 and investigated.
-Further update to Python 3.12 is expected in April according to Google Colab announcement.
-The off-line Windows scripts are already running with that version. 
+**Note 2025-04-xx** Recently i have developed new bioprocess examples and updated some old.
+
+* BPL\_YEAST\_AIR\_Fedbatch - Here is now a section illustrating the impact of low dissolved oxygen levels in a homogenous bioreactor. This subject is important for understanding scale-up but clear-cut simple dynamic experiments in the lab scale are difficult to find. Instead people in the 80s and 90s focused on the more complicated two-reactor setups. 
+
+* BPL\_YEAST\_AIR\_Fedbatch\_control1 - In this repository substrate feeding is controlled based on measurement of ethanol in the broth. Limitations of PID-control is illustrated. Interaction with the convetional stirrer speed control based on dissolved oxygen is also shown. 
+
+* BPL\_YEAST\_AIR\_Fedbatch\_control2 - In this repository substrate feeding is controlled based on measurement of ethanol in the broth. Now the I-part of conventioanl PID-control is replaced with an observer of of the culture growth rate. In this way the ethanol set-point can be kept.
 
 
-**Note 2024-02-10**
-Now all scripts are adjusted for Python 3.11 and running either PyFMI 2.16.3 or FMPy 0.3.19. 
-Further update to Python 3.12 is expected in April according to Google Colab announcement.
+* BPL\_CHO\_Fedbatch - The model is updated and includes a state for lysed cell mass and the toxic impact that material may have on specific growth rate. Now the simulations can capture the decline of viable cell mass during later part of cultivation often found.
+
+* BPL\_CHO\_Perfusion\_bleed\_control - The setup shows perfusion control where the bleed stream is controlled based on measurent of viability of the culture. A technique often used. 
 
 
 **Note 2025-02-yy** 
