@@ -1,3 +1,17 @@
+**Note 2025-04-dd**
+
+The Bioprocess Library inherits some ideas from MSL Fluid and Media but is not compliant. Now here is a new repository that shows examples of how to start to combine components from the two libraries using a tailor-made adapter component for media flows. 
+
+* BPL\_MSL\_Adaptation - In this reposistory a MSL Tank is with a pipe connected to a BPL Tank through an adaptor component. The adaptor component translate information from the MSL Media to the BPL Media and restricted to flow and composition of the mixture. Information about moleculear weights of the medium species is also transferred. 
+
+My idea is mainly to use the techniques here to facilitate development of BPL and how to bring in more media properties when needed.  
+
+
+
+
+
+
+
 **Note 2025-04-dd** 
 
 * BPL\_YEAST\_AIR\_Fedbatch\_control1 - In this repository substrate feeding is controlled based on measurement of ethanol in the broth. Limitations of PID-control is illustrated. Interaction with the convetional stirrer speed control based on dissolved oxygen is also shown. 
