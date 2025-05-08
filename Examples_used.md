@@ -7,7 +7,7 @@ In some notebooks multiple simulations are done for sensitivity analysis, model 
 
 There are Python techniques to parallelise computations using multiple CPU-kernels but not shown here. In the near future the updated FMI-standard 3.0 for generation of FMU provides gradient information and can be  used to make optimization more effective for a class of problems
 
-## TEST2 - text book model
+## TEST2 
 
 We start with the text book model of a culture with only states for: substrate, biomass, and reactor volume. 
 This model is used in many text books and even used for mammalian cultures to explain the main ideas around 
@@ -64,7 +64,15 @@ The same CHO-model can also be used to describe continuous perfusion cultivation
 * [BPL_CHO_Perfusion](https://github.com/janpeter19/BPL_CHO_Perfusion) - Perfusion cultivation of CHO-cells - not yet public
 * [BPL_CHO_Perfusion_cspr](https://github.com/janpeter19/BPL_CHO_Perfusion_cspr) - Perfusion cultivation of CHO-cells illustrating the CSPR concept
 
-## IEC
+## FILTRATION
+
+Separation of cells from the broth is an important process unit. The library contains a component modelling an ideal filter. This can be used  to configure perfusion cultivation as well as batch or fed-batch cultivation in sequence with a harvesting unit operation. 
+
+A more realistic filter should model capacity degradation over time, and that may be included in the future versions of the library.
+
+
+
+## CHROMATOGRAPHY
 
 Ion exchange chromatograpy (IEC) is an important process unit to separate the product of interest from similar molecules.
 Here a simplified model is used to illustrate the main principles of operation.
@@ -73,6 +81,10 @@ Here a simplified model is used to illustrate the main principles of operation.
 * [BPL_IEC_operation](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy operation 
 * [BPL_IEC_uv_pooling](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy using UV-pooling - not yet public 
 
-## Remarks on control and operation
+## CONTROL AND OPERATION
 
-The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include a filter and an example of downstream chromatograhy. It is also possible to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
+The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include a filter and an example of downstream chromatograhy. 
+
+The bioreactor control is mainly done using PID-regulators. The BPL/Control includes a modified PID-regulator where the output signal limits can vary with time and protects the integrator from wind-up. This is important for fed-batch cultivation where process variables change considerably over time. 
+
+The Bioprocess Library can be used to focus simulation on details of a single unit operation. The library can also be used to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
