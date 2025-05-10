@@ -70,7 +70,7 @@ Separation of cells from the broth is an important process unit. The library con
 
 A more realistic filter should model capacity degradation over time, and that may be included in the future versions of the library.
 
-Separation of cells using a centrifuge is 
+Separation of cells using a centrifuge is an interesting alternative to filtration but no model available yet. 
 
 
 ## CHROMATOGRAPHY
