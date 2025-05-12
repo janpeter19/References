@@ -84,8 +84,8 @@ Here a simplified model is used to illustrate the main principles of operation.
 
 ## CONTROL AND OPERATION
 
-The Bioprocess Library is well suited to study control and operation of a bioreactor and we also include a filter and an example of downstream chromatograhy. 
+The Bioprocess Library is well suited to study control and operation of a bioreactor. Here is also an ideal filter available in BPL/EquipmentLib and used in setup of perfusion cultivations. Here is also an example of downstream chromatograhy and may in the future be included BPL/EquipmentLib as a standard component. 
 
-The bioreactor control is mainly done using PID-regulators. The BPL/Control includes a modified PID-regulator where the output signal limits can vary with time and protects the integrator from wind-up. This is important for fed-batch cultivation where process variables change considerably over time. 
+The bioreactor control is mainly done using PID-regulators. The BPL/Control includes a modified PID-regulator where the output signal limits can vary with time and protects the integrator from wind-up. This is important for fed-batch cultivation where process variables change considerably over time. The modified PID-regulator is built using Modelica Standard Library compomenets.
 
 The Bioprocess Library can be used to focus simulation on details of a single unit operation. The library can also be used to simulate a small sequence of unit operations like culture expansion and culture harvest. Such operation is here modelled mainly by time schedules of signals for valves and pumps and simpler control logic. There is a possibility for more comprehensive sequence control in Modelica and may be explored in the future.
