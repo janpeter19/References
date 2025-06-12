@@ -1,3 +1,17 @@
+**Note 2025-06-12**
+
+Here is some changes in the Colab environment that makes it difficult to run the demo examples.
+
+* PyFMI: The script setting up the environment is very slow. Loading Miniconda used to take 1-2 minuntes but now takes much longer time. Not clear why.
+
+* FMPy: The script setting up the environment comes to a halt. Follow the instruction and restart the session.  The the script comes to a new halt. Then just choose the next cell cd BPL_ (and the address depens on the application chosen). Then choose Runtime/Run cell and below.
+
+Further, I also gradually update the FMUs with MSL 4.1.0. For applications using PID-control that needs an update of BPL and will be done later. This updates should not affect the demo examples here. 
+
+
+
+
+
 **Note 2025-04-dd**
 
 The Bioprocess Library inherits some ideas from MSL Fluid and Media but is not compliant. Now here is a new repository that shows examples of how to start to combine components from the two libraries using a tailor-made adapter component for gas flows. 
