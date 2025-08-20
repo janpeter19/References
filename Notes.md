@@ -1,5 +1,8 @@
 # Notes history
 
+
+**Note 2025-08-04** All applications run in Python 3.11 with BPL 2.3.1 with MSL 4.1.0, using PyFMI 2.18.0 or FMPy 0.3.25. However, here are three applications that needs the older FMPy 0.3.21 and I will take a dialogue with the vendor. 
+
 **Note 2025-06-28** Now also the application with PID-control is updated and use BPL 2.3.1. with MSL 4.1.0.
 
 **Note 2025-06-12** Here are some changes in the Colab environment that makes it difficult to run the demo examples.
