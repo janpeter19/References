@@ -1,16 +1,19 @@
 
-**Note 2025-08-20**
-All applications run in Python 3.12. In the near future Colab is expected to upgrade default Ubuntu to 24.04 and may call for recompilations of the FMUs from my side. 
 
 
 
-**Note 2025-08-04**
-All applications run in Python 3.11 with BPL 2.3.1 with MSL 4.1.0, using PyFMI 2.18.0 or FMPy 0.3.25. However, here are three applications that needs the older FMPy 0.3.21 and I will take a dialogue with the vendor. 
+**Note 2025-11-17**
+The Python code for notebook interaction **FMU-explore is updated to 1.0.2.** 
 
+* The function<code>par()</code>can now also have dictionaries (of parameters) as arguments, for improved convenience. See an example in BPL\_TEST2\_Fedbatch.
 
+* The new functions<code>readParValue()</code> and <code>readParLocation()</code> reads parameters from an excel-sheet. This provide better overview that a script and useful for largers models. See an example in BPL\_CHO\_Fedbatch.
 
+* The FMU-explore code is also simplified under the hood and now global variables are only used around plotting diagrams. This facilitates further development. 
 
+* The two underlying dictionaries <code>parDict</code> and <code>stateDict</code> have changed name to <code>parValue</code> and <code>stateValue</code>, but best is to interact with them through <code>par(), init(),</code> <code> disp() and describe()</code> as before. 
 
+All examples run in well newly released PyFMI 2.19.0. You can also use FMPy as before.
 
 
 
