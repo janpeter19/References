@@ -2,22 +2,10 @@
 
 
 
-**Note 2025-11-17**
-The Python code for notebook interaction **FMU-explore is updated to 1.0.2.** 
-
-* The function<code>par()</code>can now also have dictionaries (of parameters) as arguments, for improved convenience. See an example in BPL\_TEST2\_Fedbatch.
-
-* The new functions<code>readParValue()</code> and <code>readParLocation()</code> reads parameters from an excel-sheet. This provide better overview that a script and useful for largers models. See an example in BPL\_CHO\_Fedbatch.
-
-* The FMU-explore code is also simplified under the hood and now global variables are only used around plotting diagrams. This facilitates further development. 
-
-* The two underlying dictionaries <code>parDict</code> and <code>stateDict</code> have changed name to <code>parValue</code> and <code>stateValue</code>, but best is to interact with them through <code>par(), init(),</code> <code> disp() and describe()</code> as before. 
-
-All examples run in well newly released PyFMI 2.19.0. You can also use FMPy as before.
 
 
 
-**Note 2025-04-dd**
+**Note 2025-mm-dd**
 
 The Bioprocess Library inherits some ideas from MSL Fluid and Media but is not compliant. Now here is a new repository that shows examples of how to start to combine components from the two libraries using a tailor-made adapter component for gas flows. 
 
@@ -26,7 +14,7 @@ The Bioprocess Library inherits some ideas from MSL Fluid and Media but is not c
 In this way by using MSL Fluid and Media we can develop gas handling before it comes to the reactor. My further idea is mainly to use the techniques here to facilitate development of BPL and how to bring in more media properties when needed.  MSL Fluid and Media contains a lot of knowledge about thermo-fluid properties of media and can be needed in futurre bioprocess applications.
 
 
-**Note 2025-04-dd** 
+**Note 2025-mm-dd** 
 
 * BPL\_YEAST\_AIR\_Fedbatch\_control1 - In this repository substrate feeding is controlled based on measurement of ethanol in the broth. Limitations of PID-control is illustrated. Interaction with the convetional stirrer speed control based on dissolved oxygen is also shown. 
 
@@ -37,7 +25,7 @@ In this way by using MSL Fluid and Media we can develop gas handling before it c
 * BPL\_CHO\_Batch\_qP\_calibration - In this example we illustrate the possilibitie to calibrate the function of recombinant protein expression $q_P()$  given that the model of cell growth and metabolism is known. Both a traditional model of $q_P()$ as a linear function with saturation, as well as a more flexible neural network model, are tested on simulated data. 
 
 
-**Note 2025-02-yy** 
+**Note 2025-mm-yy** 
 
 Here is a new repository including control design of fedbatch cultivation, made on request.
 The example is about feed rate control of yeast cultivation during fedbatch with focus on 
