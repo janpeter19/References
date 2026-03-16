@@ -1,6 +1,8 @@
 
 
 
+**Note 2026-03-dd**
+Now applications run with **latest PyFMI 2.20.1 and FMPy 0.3.28** in Google Colab with Linux.
 
 
 
