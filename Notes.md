@@ -1,8 +1,10 @@
 # Notes history
 
+**Note 2026-03-16**
+Now applications run with **latest PyFMI 2.20.1 and FMPy 0.3.28** in Google Colab with Linux. The application BPL\_IEC\_operation still has problems using FMPy and works only up to version 0.3.21. The dialogue with the vendor continues. Now all applications directly start in Google Colab and simplify the interaction.
+
 **Note 2026-01-20**
 Now applications run with **latest PyFMI 2.20.0** both in Linux and in Windows. Note that PyFMI has no problems with the applications BPL\_IEC\_operation and BPL\_TEST2\_Perfusion while FMPy 0.3.27 has.
-
 
 **Note 2026-01-15**
 Now applications run with **latest FMPy 0.3.27.** This update fixed a defect in FMPy for Linux and now works also for the application BPL\_TEST2\_Batch\_design\_space. The application BPL\_IEC\_operation still has problems using FMPy in Colab using Linux and the dialog with the vendor continuous.
@@ -19,8 +21,6 @@ The Python code for notebook interaction **FMU-explore is updated to 1.0.2** and
   * The two underlying dictionaries <code>parDict</code> and <code>stateDict</code> have changed name to <code>parValue</code> and <code>stateValue</code>, but best is to interact with them through <code>par(), init(),</code> <code> disp() and describe()</code> as before. 
 
   All examples run well in newly released PyFMI 2.19.0. You can also use FMPy as before.
-
-
 
 **Note 2025-08-20** All applications run in updated Colab with Python 3.12. In the near future Colab is expected to upgrade default Ubuntu to 24.04 and may call for recompilations of the FMUs from my side. 
 
