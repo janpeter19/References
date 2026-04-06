@@ -1,7 +1,7 @@
 # Examples used
 
 Here a brief guide to the many examples of cultures and cultivation techniques. The guide is mainly organized around the culture model used. There is about one Jupyter notebook around an example per repository.  Reference to the literature you find in the notebooks. 
-I hope the variety of examples give an idea of of the versatility of using compiled Modelica code as FMU and Jupyter notebooks with small Python scripts to improve understanding of bioprocesses.
+I hope the variety of examples give an idea of the versatility of using compiled Modelica code as FMU and Jupyter notebooks with small Python scripts to improve understanding of bioprocesses.
 
 In some notebooks multiple simulations are done for sensitivity analysis, model calibration, or process optimization.  Here are used extra Python packages SALib and SciPy.  The key in these type of notebooks is that an application dependent evaluation function is defined in Python and a general flexible and open format is used and facilitated with the FMU-explore command line package. The optimization technique used is gradient free. 
 
@@ -36,11 +36,11 @@ The yeast model can be structured in two parts and here the details around the r
 
 * [BPL_YEAST_O2LIM_Chemostat](https://github.com/janpeter19/BPL_YEAST_O2LIM_Chemostat) - Continuous cultivation - not yet public
 
-The yeast respiratory bottleneck model can be described in terms of constraint-based modelling. This is illustrated in the next example. The notebook include connection to a public genome based model. 
+The yeast respiratory bottleneck model can be described in terms of constraint-based modelling. This is illustrated in the next example. The notebook can also include a connection to a public genome based model, but not shown here. 
 
 * [BPL_YEAST_COB](https://github.com/janpeter19/BPL_YEAST_COB) - Yeast and constraint-based modelling
 
-Yeast is industrially culitivated in large reactors where gradients in substrate concentration play a role for lowering yield. Reactor size typically 100 $m^3$. The inlete substrate flow gives an area of high subdtrate level and cna be percieved as a "Hot-spot". In this part of the reactor ethanol is formed while in other parts of the reactor the ethanol can be consumed during certain coditions. Here is a two-reactor setup that illustrates the phenomena.
+Yeast is industrially culitivated in large reactors where gradients in substrate concentration play a role for lowering yield. Reactor size typically 100 $m^3$. The inlete substrate flow gives an area of high substrate level and cna be percieved as a "Hot-spot". In this part of the reactor ethanol is formed while in other parts of the reactor the ethanol can be consumed during certain coditions. Here is a two-reactor setup that illustrates the phenomena.
 
 * [BPL_YEAST_Fedbatch_hotspot](https://github.com/janpeter19/BPL_YEAST_Fedbatch_hotspot) - Yeast and fedbatch  two-reactor setup - not yet public
 
@@ -75,8 +75,7 @@ Separation of cells using a centrifuge is an interesting alternative to filtrati
 
 ## CHROMATOGRAPHY
 
-Ion exchange chromatograpy (IEC) is an important process unit to separate the product of interest from similar molecules.
-Here a simplified model is used to illustrate the main principles of operation.
+Ion exchange chromatograpy (IEC) is an important process unit to separate the product of interest from similar molecules. Here a simplified model is used to illustrate the main principles of operation.
 
 * [BPL_IEC_validation](https://github.com/janpeter19/BPL_IEC_validation) - Ion Exchange Chromatograpy introduction
 * [BPL_IEC_operation](https://github.com/janpeter19/BPL_IEC_operation) - Ion Exchange Chromatograpy operation 
