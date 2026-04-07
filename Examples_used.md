@@ -9,9 +9,7 @@ There are Python techniques to parallelise computations using multiple CPU-kerne
 
 ## TEST2 
 
-We start with the text book model of a culture with only states for: substrate, biomass, and reactor volume. 
-This model is used in many text books and even used for mammalian cultures to explain the main ideas around 
-continuous and perfusion cultivation.
+We start with the text book model of a culture with only states for: substrate, biomass, and reactor volume. This model is used in many text books and even used for mammalian cultures to explain the main ideas around continuous and perfusion cultivation.
 
 * [BPL_TEST2_Batch](https://github.com/janpeter19/BPL_TEST2_Batch) - Batch cultivation 
 * [BPL_TEST2_Fedbatch](https://github.com/janpeter19/BPL_TEST2_Fedbatch) - Fedbatch cultivation 
@@ -25,6 +23,27 @@ Model calibration is important in practice and a basic example using Python scip
 Design space calculation is an important kind of application and a basic example is given below. Here noise is added to the measurement signal in the later part of the notebook. 
 
 * [BPL_TEST2_Batch_design_space](https://github.com/janpeter19/BPL_TEST2_Batch_design_space) - Batch cultivation and design space characterization
+
+
+## TEST3
+Recombinant protein production is important in many applications. Here the standard mmodel TEST2 is expanded with a state for recombinant protein and an empirical model of its production is added.
+A key factor is if the recombiant protein expression need to be induced or if the the protein expression is constitutive, i.e. active all the time.
+
+For higher expression levels of recombinant protein production the model must be integrated with general cell metabolism and growth. These models are often specific and of proprietary nature.
+
+In the following example batch cultivation with constituitve recombinant protien production and subsesequent filtration of the brotth to concentrate the product level are simulated.
+
+* [BPL\_TEST3\_Batch\_harvest](https://github.com/janpeter19/BPL_TEST3_Batch_harvest) - Batch cultivation with recombinant protein production and a filter to separate the product protein after the batch phase - not yet public
+
+In the next example the protein expression is induced at certain time during batch cultivation. After induction the cell growth decrease considerably. The example illustrate the trade-off between cell growth and protein expression and an optimal time for induction is derived by simulation.
+
+* [BPL\_TEST3\_Batch\_induction](https://github.com/janpeter19/BPL_TEST3_Batch_induction) - Batch cultivation with recombinant protein production after induction - not yet public
+
+The example can easily be tranferred to fed-batch cultivation as well.
+
+Recombinant protein production is also included in the CHO fedbatch example below.
+
+
 
 ## YEAST
 
@@ -53,7 +72,7 @@ The *E coli* model below is similar to the the yeast model but also include main
 
 ## CHO
 
-The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain inhibition effects. The model was originally developed for fedbatch cultivation with continuous feed. 
+The CHO-model below is also inspired by the bottleneck model of yeast above. In this model we describe both byproducts lactate and ammonia and the model has two different bottlenecks. The maintenance metabolism is also included as well as certain inhibition effects. The model does also include recombinant protein production. The model was originally developed for fedbatch cultivation with continuous feed. 
 
 * [BPL_CHO_Fedbatch](https://github.com/janpeter19/BPL_CHO_Fedbatch) - Fedbatch cultivation of CHO-culture 
 * [BPL_CHO_Fedbatch_optimization](https://github.com/janpeter19/BPL_CHO_Fedbatch_optimization) - Optimization of fedbatch cultivation of CHO-culture - not yet public
