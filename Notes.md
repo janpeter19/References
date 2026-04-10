@@ -1,5 +1,10 @@
 # Notes history
 
+**Note 2026-04-09** Now **BPL 2.3.2** is released and so far only used in application BPL\_YEAST\_AIR\_Fedbatch. Gradually FMUs will be re-compiled. The updated library brings process descriptions and annotation for default values of simulation. This works well in OpenModelica, while for depracated JModelica it does not, and here only used locally for Windows.
+
+**Note 2026-03-31**
+Now applications run with **latest PyFMI 2.21.0 and FMPy 0.3.29** in Google Colab with Linux. The application BPL\_IEC\_operation still has problems using FMPy and works only up to version 0.3.21. The dialogue with the vendor continues. The FMUs are re-compiled now including a description accesible with command describe('process') using the updated FMU-explore 1.0.3. 
+
 **Note 2026-03-16**
 Now applications run with **latest PyFMI 2.20.1 and FMPy 0.3.28** in Google Colab with Linux. The application BPL\_IEC\_operation still has problems using FMPy and works only up to version 0.3.21. The dialogue with the vendor continues. Now all applications directly start in Google Colab and simplify the interaction.
 
