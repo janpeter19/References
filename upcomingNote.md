@@ -1,10 +1,8 @@
 
 
 
-**Note 2026-03-31**
-Now applications run with **latest PyFMI 2.21.0 and FMPy 0.3.29** in Google Colab with Linux. The application BPL\_IEC\_operation still has problems using FMPy and works only up to version 0.3.21. The dialogue with the vendor continues. The FMUs are re-compiled now including a description accesible with command describe('process') using the updated FMU-explore 1.0.3. 
-
-
+**Note 2026-07-06** Now applications run with the ltest **FMPy 0.3.30** in Google Colab with Linux. I am happy to see that now also the application BPL\_IEC\_operation also works with this new update of FMPy. However, two new problems arise with applications BPL\_TEST2\_design\_space and BPL\_YEAST\_AIR\_Fedbatch, and these applicatíons worked fine with the previous version of FMPy.
+The sporadic dialogue with the vendor continues.
 
 
 **Note 2025-mm-dd**
