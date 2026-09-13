@@ -1,5 +1,9 @@
 # Notes history
 
+**Note 2026-07-06** Now applications run with the ltest **FMPy 0.3.30** in Google Colab with Linux. I am happy to see that now also the application BPL\_IEC\_operation also works with this new update of FMPy. However, two new problems arise with applications BPL\_TEST2\_design\_space and BPL\_YEAST\_AIR\_Fedbatch, and these applicatíons worked fine with the previous version of FMPy. The sporadic dialogue with the vendor continues, see [#742](https://github.com/CATIA-Systems/FMPy/issues/742).
+
+**Note 2026-04-14** Now all Linux FMUs are recompiled with **OpenModelica latest stable version 1.26.3** and using BPL 2.3.2.
+
 **Note 2026-04-09** Now **BPL 2.3.2** is released and so far only used in application BPL\_YEAST\_AIR\_Fedbatch. Gradually FMUs will be re-compiled. The updated library brings process descriptions and annotation for default values of simulation. This works well in OpenModelica, while for depracated JModelica it does not, and here only used locally for Windows.
 
 **Note 2026-03-31**
