@@ -1,5 +1,15 @@
 # Notes history
 
+**Note 2026-09-07** Now FMU_explore 1.1.5 is here and can be used for both PyFMI and FMPy. The notebook for FMPy is adjusted for the application BPL_TEST2_Batch and gradually the notebooks will be updated for the other applications as well. The adjustments for all notebooks with PyFMI are already in place.
+
+**Note 2026-09-01** Now all applications can run with PyFMI 2.22.0 and FMU_explore 1.1.4 in the Python 3.13 environment.  
+
+**Note 2026-08-28** Now most applications can also run with PyFMI under the new default Python 3.13. These applications are also updated with FMU_explore ver 1.1.1. All applications can also run with FMPy with Python 3.13 with the older version of FMU_explore without problems. Development of the package FMU\_explore continues!
+
+**Note 2026-08-24** Here seems to be a general problem with installing PyFMI that has nothing to do with my work to use the new package FMU_explore. The main reason seems to be that from today default Python shifted from 3.12 to 3.13. I recommend you to use the notebook using fmpy instead for the time being and here no problem with the new default Python.
+
+**Note 2026-08-21** The setup-scripts for each application have for a long time had a structure of a specific application part and a general part that I call **FMU\_explore**. Now this general part is imported as a separate module file and placed at a central place. This organisation facilitates future maintenance and further development. The setup files are now two smaller files and the setup takes up a few lines in the notebook for clarity. Now for test just for the application BPL\_TEST2\_Batch. The module is done for PyFMI and will later be done also for FMPy. The version is 1.1.0 and have otherwise the same functionality as before. The ideas behind FMU\_explore you find [here](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).
+
 **Note 2026-07-06** Now applications run with the ltest **FMPy 0.3.30** in Google Colab with Linux. I am happy to see that now also the application BPL\_IEC\_operation also works with this new update of FMPy. However, two new problems arise with applications BPL\_TEST2\_design\_space and BPL\_YEAST\_AIR\_Fedbatch, and these applicatíons worked fine with the previous version of FMPy. The sporadic dialogue with the vendor continues, see [#742](https://github.com/CATIA-Systems/FMPy/issues/742).
 
 **Note 2026-04-14** Now all Linux FMUs are recompiled with **OpenModelica latest stable version 1.26.3** and using BPL 2.3.2.
