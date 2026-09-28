@@ -1,8 +1,6 @@
-**Note 2026-08-20** The setup-scripts for each application have for a long time had a structure of a specific application part and a general part that I call **FMU\_explore**. Now this general part is imported as a separate module file and placed at a central place. This organisation facilitates future maintenance and further development. The setup files are now two smaller files and the setup takes up a few lines in the notebook for clarity. The module is done for PyFMI and will later be done also for FMPy. The version is 1.1.0 and have otherwise the same functionality as before. The ideas behind FMU\_explore you find [here](https://www.openmodelica.org/images/M_images/OpenModelicaWorkshop_2022/1505_Axelsson%202022,%20Design%20aspects%20of%20FMU-explore%20a%20Python%20module%20to%20complement%20PyFMI.pdf).
-
-
-**Note 2026-07-06** Now applications run with the ltest **FMPy 0.3.30** in Google Colab with Linux. I am happy to see that now also the application BPL\_IEC\_operation also works with this new update of FMPy. However, two new problems arise with applications BPL\_TEST2\_design\_space and BPL\_YEAST\_AIR\_Fedbatch, and these applicatíons worked fine with the previous version of FMPy.
-The sporadic dialogue with the vendor continues.
+**Note 2026-09-28**
+Now all applications have been run using **FMU\_explore version 1.2.4** and with the new **default VM Ubuntu 24.04.5 LTS**.
+The setup-files for each application are also polished to the Python standard. The latest versions of PyFMI and FMPy have generally been used. However, for FMPy the older version 0.3.29 was needed for two applications as before. I will try to get the developers attention since might be important more generally.
 
 
 **Note 2025-mm-dd**
