@@ -1,10 +1,10 @@
-**Note 2026-10-dd**
+**Note 2026-10-28**
 The following maintenance work has been done. The setup of fmpy notebooks are now done more consistently with "uv pip" and improves the setup speed. Further all setup-files have at the end a clean-up section to delete not necessary variables in the workspace after the fmu_explore class module has been populated with this context information about the application. And that item is now called Application (previously called Adapted). Finally here is progress with using the rudimentary module for OMSimulator and a handful of applications can be run. Good to see that **OMSimulator** handle well also the applications that fmpy has documented problems with! 
 
 
 
 **Note 2026-10-05**
-I have developed a first prototype fmu_explore_oms that provide the interace also to OMSimulator.
+I have developed a first prototype fmu_explore_oms that provide the inteface also to OMSimulator.
 It is not complete and you only have the functions: par(), init(), newplot(), and simu() at the moment.
 Further, the simu() function does not include 'cont'. You can find test notebooks for just a few applications so far BPL_TEST2_Batch, BPL_TEST2_Fedbatch. For the near future the aim is mianly to get this module comparable with the other two. In the longer perspective it would be interesting to expand the usage of FMU_explore to applications with two or more FMUs in combination and here OMSimulator has advantages compared to the other two simulator-enginges.
 
