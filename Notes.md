@@ -1,8 +1,15 @@
 # Notes history
 
+
+**Note 2026-09-23** I just became aware of that Colab VM now runs by **default Ubuntu 24.04.5 LTS**. The upgrade have likely been made in the first half of September. So far, I have not seen any problems due to this upgrade. The FMUs are made in an Ubuntu 22.04.5 LTS environment but re-compilation seems not needed.
+
+**Note 2026-09-21** Now FMU\_explore **version 1.2.4** is released. It is a maintenance release with focus on code improvements. The applications will be updated with this version of the package as default during the days to come.
+
+**Note 2026-09-14** Today FMU\_explore **version 1.2.0** is released! This means that the version is addressed slightly differently from before, see the notebooks. The application BPL\_TEST2\_Batch can be run with both pyfmi and fmpy using this released version. The other applications will gradually in the coming days be updated in a similar way.  
+
 **Note 2026-09-07** Now FMU_explore 1.1.5 is here and can be used for both PyFMI and FMPy. The notebook for FMPy is adjusted for the application BPL_TEST2_Batch and gradually the notebooks will be updated for the other applications as well. The adjustments for all notebooks with PyFMI are already in place.
 
-**Note 2026-09-01** Now all applications can run with PyFMI 2.22.0 and FMU_explore 1.1.4 in the Python 3.13 environment.  
+**Note 2026-09-01** Now all applications can run with PyFMI 2.22.0 and FMU_explore 1.1.4 in the Python 3.13 environment. 
 
 **Note 2026-08-28** Now most applications can also run with PyFMI under the new default Python 3.13. These applications are also updated with FMU_explore ver 1.1.1. All applications can also run with FMPy with Python 3.13 with the older version of FMU_explore without problems. Development of the package FMU\_explore continues!
 
